@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout">
+
+    <View
+        android:visibility="gone"
+        android:id="@+id/fake_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fake_action_bar">
+
+        <View
+            android:id="@+id/divider_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/timer_text"
+            android:background="#000"/>
+
+        <TextView
+            android:id="@+id/timer_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:textSize="48dp"
+            android:text="@string/timer_default_text"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/timer_text"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_marginRight="8dp">
+
+                <TextView
+                    android:id="@+id/scramble_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text="@string/fragment_timer_scramble_title"/>
+
+                <letsapps.com.letscube.view.AdaptableTextView
+                    android:id="@+id/scramble_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_above="@+id/timer_text"
+                    android:layout_below="@id/scramble_title"
+                    android:textSize="20dp"
+                    android:text="R2 U L' F2 R2 B L U' R' F2 B2 R U2 L' F' D2 F B2 R L U'"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/average_array_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_marginTop="8dp"
+                android:gravity="center">
+
+                <letsapps.com.letscube.view.HomeInfoView
+                    android:id="@+id/home_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <letsapps.com.letscube.view.TimerOverlayLayout
+        android:id="@+id/timer_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="4dp"
+        android:textColor="#FFF"
+        android:text="© Let's Cube Timer"/>
+
+</RelativeLayout>

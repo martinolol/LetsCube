@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Let\'s cube Timer</string>
+    <string name="copyright" translatable="false">
+        © 2016 LET\'S CUBE TIMER\nSOME RIGHTS RESERVED
+    </string>
+
+    <string name="activity_loading_loading">Loading</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="send">Send</string>
+    <string name="delete">Delete</string>
+    <string name="validate">Validate</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="ok">Ok</string>
+
+
+    <string name="timer_default_text">Press to start</string>
+    <string name="timer_inspecting">Inspection</string>
+    <string name="timer_solving">Solve</string>
+
+    <string name="onboarding_step1_home_title">Precise to the millisecond</string>
+    <string name="onboarding_step1_home_desc">Measure your performance with accuracy.</string>
+    <string name="onboarding_step2_record_title">Records detection</string>
+    <string name="onboarding_step2_record_desc">Be alerted when you beat a new record.</string>
+    <string name="onboarding_step2_record_single">single</string>
+    <string name="onboarding_step3_analytics_title">Improvement follow-up</string>
+    <string name="onboarding_step3_analytics_desc">Analyze your performance improvement in the long term.</string>
+    <string name="onboarding_step4_theme_title">App customization</string>
+    <string name="onboarding_step4_theme_desc">Choose your favorite colour to personalize your app</string>
+    <string name="onboarding_step5_access_title1">Choose a theme</string>
+    <string name="onboarding_step5_access_title2">How did you know this app?</string>
+    <string name="onboarding_step5_access_desc20">Youtube</string>
+    <string name="onboarding_step5_access_desc21">Forum</string>
+    <string name="onboarding_step5_access_desc22">Acquaintance </string>
+    <string name="onboarding_step5_access_desc23">Play store</string>
+    <string name="onboarding_step5_access_desc24">Other :</string>
+    <string name="onboarding_step_title">Step %1$d/%2$d</string>
+
+    <string name="time_weird_dialog_title">Strange time</string>
+    <string name="time_weird_dialog_message_low">
+        Your time (%1$ss) seems to much good, do you want to keep it?
+    </string>
+    <string name="time_weird_dialog_message_high">
+        Your time (%1$ss) seems to much bad, do you want to keep it?
+    </string>
+    <string name="time_weird_dialog_button_keep">Keep it</string>
+    <string name="time_weird_dialog_button_delete">Delete</string>
+
+    <string name="default_name_first_session">Session 1</string>
+    <!--
+    <string name="login_why">Pour nous permettre de comptabiliser le nombre d\'utilisateur et pour
+        nous permettre de vous proposer le meilleur timer de speedcubing possible, nous avons
+        besoins de très peu d\'informations afin de différencier les utilisateurs :</string>
+    -->
+    <string name="home_info_unavailable">Coming soon!</string>
+
+    <string name="login_name_desc">Name :</string>
+    <string name="login_name_hint">Nickname</string>
+    <string name="login_email_desc">Email :</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_info_name_empty">name missing.</string>
+    <string name="login_info_email_invalid">Invalid email adress.</string>
+    <string name="login_button">Access  the timer</string>
+
+    <string name="settings_title_timer">Timer :</string>
+    <string name="settings_inspection">Inspection</string>
+    <string name="settings_title_design">Design :</string>
+    <string name="settings_dialog_theme_title">Theme</string>
+    <string name="settings_dialog_theme_message">Choose your favorite color :</string>
+    <string name="settings_theme_orange">Orange</string>
+    <string name="settings_theme_orange_light">Light orange</string>
+    <string name="settings_theme_blue">Blue</string>
+    <string name="settings_theme_cyan">Cyan</string>
+    <string name="settings_theme_green">Green</string>
+    <string name="settings_theme_green_light">Light green</string>
+    <string name="settings_theme_yellow">Yellow</string>
+    <string name="settings_theme_red">Red</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_dialog_background_title">Timer background</string>
+    <string name="settings_background">Timer background</string>
+    <string name="settings_background_white">White</string>
+    <string name="settings_background_black">Black</string>
+    <string name="settings_timer_update_dialog_title">Timer update</string>
+    <string name="settings_timer_update">Timer update</string>
+    <string name="settings_timer_update_desc_no">Don\'t show time</string>
+    <string name="settings_timer_update_millisecond">Every 0.001s</string>
+    <string name="settings_timer_update_hundredth">Every 0.01s</string>
+    <string name="settings_timer_update_tenth">Every 0.1s</string>
+    <string name="settings_timer_update_second">Every 1s</string>
+    <string name="settings_timer_home_content">Home content</string>
+    <string name="settings_timer_home_content_dialog_title">Home content</string>
+    <string name="settings_timer_home_content_nothing">Nothing</string>
+    <string name="settings_timer_home_content_averages">Averages</string>
+    <string name="settings_timer_home_content_pattern">Pattern</string>
+    <string name="settings_timer_home_content_chart_line">Chart times</string>
+    <string name="settings_timer_home_content_chart_histogram">Chart distribution</string>
+    <string name="settings_timer_record_alert">Record alert</string>
+    <string name="settings_title_help">Help :</string>
+    <string name="settings_help_scramble">How to scramble the %1$s?</string>
+    <string name="settings_help_app">How to use this app?</string>
+    <string name="settings_title_contact">Contact :</string>
+    <string name="settings_contact">Send message to the developer</string>
+    <string name="settings_contact_dialog_title">Contact</string>
+    <string name="settings_contact_dialog_desc">Enter what you want to say to the developer
+        (update idea, new settings options, opinions about the app...),
+        the message will be see in the day and understand by the developer
+        (your message will be replied by mail) :
+    </string>
+    <string name="settings_contact_dialog_hint">max. 250</string>
+    <string name="settings_support">Support developper for free</string>
+    <string name="settings_support_not_loaded">The ad is not loaded,
+        please turn on wifi or try again in few seconds!</string>
+    <string name="settings_support_thanks">Thanks you for your support!</string>
+    <string name="settings_rate">Rate it on google play</string>
+    <string name="settings_rate_impossible">Impossible to find Google play, please install it!</string>
+
+    <string name="settings_help_scramble_dialog_title">Help for scrambles</string>
+    <string name="settings_help_scramble_dialog_2x2_3x3">For scrambling cubes,
+        you always need to have the green face facing you and the white face
+        above. Here are the meaning of each notations used :
+        \n\n<b>R, L, F, B, U, D</b> indicates which face to turn :
+        \n<b>R : R</b>ight face.
+        \n<b>L : L</b>eft face.
+        \n<b>F : F</b>ront face.
+        \n<b>B : B</b>ack face.
+        \n<b>U : U</b>p face.
+        \n<b>D : D</b>own face.
+        \n\n<b>2, \'</b> indicates how to turn them :
+        \nan alone letter means to do a clockwise quarter turn.
+        \n<b>\'</b> means to do a counterclockwise quarter turn.
+        \n<b>2</b> means to do a half turn.
+        \n\nSo, for example <b>L\'</b> means to do a quarter turn counterclockwise of the left face.</string>
+    <string name="settings_help_scramble_dialog_4x4_5x5">For scrambling big cubes like 4x4 and 5x5,
+        it\'s the same as 2x2 or 3x3 but single letters
+        means to turn the external layer, and when the letter is followed by a <b>w</b>, you have
+        have to turn both external and internal layer of the face.
+        \n\nSo, for example <b>Fw2</b> means to do a half turn of both front layers.
+    </string>
+    <string name="settings_help_scramble_dialog_6x6_7x7">For scrambling big cubes like 6x6 and 7x7,
+        it\'s the same as 4x4 or 5x5 but letters
+        followed by a <b>w</b> and preceded by a <b>3</b> means to turn the 3
+        external layers.
+        \n\nSo, for example <b>3Uw\'</b>
+        means to do a quarter turn counterclockwise of the 3 up layers.
+    </string>
+    <string name="settings_help_scramble_dialog_square1">For scrambling square-1,
+        you always need to have the 2 \'bars\' horizontal in order to
+        have a small piece at the left of the middle layer of the front face.
+        \n\nThen, a <b>/</b> means to do half a turn of the right block,
+        this move is called \'slice\'.
+        between the 2 parentheses, there is 2 numbers :
+        \n- The first one is the number of 30° clockwise turns of the top face.
+        \n- The second one is the number of 30° clockwise turns of the down face.
+        \nSo a negative number means to turn counterclockwise.
+        \n\nFor example, <b>(3,-1) /</b> means to turn the top face 90° (a quarter turn) clockwise
+        and the down face 30° counterclockwise. Then, do a slice.
+    </string>
+    <string name="settings_help_scramble_dialog_skewb">For scrambling skewb,
+        you always need to take it with the white-green-red corner facing
+        you, in order to have white face above, green face left and red face right.
+        \nHere are the meaning of each notations used :
+        \n\n<b>R, L, B, U</b> indicates which angle to turn,
+        \n<b>R</b> : Lower right corner (blue-red-yellow).
+        \n<b>L</b> : Lower left corner (orange-green-yellow).
+        \n<b>B</b> : Back corner (blue-orange-yellow).
+        \n<b>U</b> : Up corner (white-orange-blue).
+        \n\nIf the letter is alone, you have to do the turn clockwise, if it\'s followed by
+        <b>\'</b>, you have to do the turn counterclockwise.
+        \n\nSo, for example <b>L\'</b> means to turn the lower left corner counterclockwise.
+    </string>
+    <string name="settings_help_scramble_dialog_pyraminx">For scrambling pyraminx,
+        you always need to take it with the yellow face on bottom and
+        green face facing you.
+        \nHere are the meaning of each notations used :
+        \n\n<b>R, L, B, U</b> indicates which tip to turn :
+        \n<b>R</b> : <b>R</b>ight tip.
+        \n<b>L</b> : <b>L</b>eft tip.
+        \n<b>B</b> : <b>B</b>ack tip.
+        \n<b>U</b> : <b>U</b>p tip.
+        \n\nIf the letter is alone, you have to do the turn clockwise, if it\'s followed by
+        <b>\'</b>, you have to do the turn counterclockwise.
+        \nIf the letter is upercase, you have to turn both layer of the tip,
+        \nIf the letter is lowercase, you only have to turn the external little tip,
+
+        \n\nSo, for example <b>R</b> means to turn the both layers of the right tip clockwise.
+    </string>
+    <string name="settings_help_scramble_dialog_megaminx">For scrambling megaminx,
+        you always need to take it with the green face facing you and
+        the white face as top face.
+        \nFor the notation, you have to take the 3 pieces (corner-edge-corner) on the left of
+        white face, generally they contains white and purple.
+        \nHere are the meaning of each notations used :
+        \n\n<b>R++</b> means to lock your 3 pieces and turn all the Right block clockwise
+        2 times (144°)
+        \n<b>R--</b> : same but counterclockwise (-144°)
+        \n<b>D++</b> means to lock your 3 pieces and turn all the Bottom block clockwise
+        2 times (144°)
+        \n<b>D--</b> : same but counterclockwise (-144°)
+        \n<b>U</b> : release your 3 pieces, turn the white face clockwise (72°) and relock the 3
+        left pieces
+        \n<b>U\'</b> : release your 3 pieces, turn the white face counterclockwise (-72°) and relock
+        the 3 left pieces
+
+        \n\nSo, for example <b>D--</b> means to turn everything counterclockwise (-144°)
+        without the top face
+
+    </string>
+    <string name="settings_help_scramble_dialog_coming_soon">Coming soon!</string>
+    <string name="settings_help_scramble_dialog_no_scramble">No scramble available for this event.
+    </string>
+    <string name="settings_help_app_dialog_title">Help for using app</string>
+    <string name="settings_help_app_dialog_content">This app it\'s just a timer for speedcubers
+        to time themselves, register there times,
+        calculate there averages, records...
+        \n\nSome explanations about the app :
+        \n-You can choose your event by clicking on the event name in the top bar.
+        \n-You can add a personal event by clicking on \'add event\' in unofficial part.
+        \n-You can edit a personal event by a long click on it in the eventList.
+        \n-OH means to solve the cube with only one hand.
+        \n-BLD means to solve the cube blindfolded.
+        \n-FT means to only solve the cube using feet.
+        \n\n-You can set penalty to a time by clicking on it in the time list.
+        \n-You can remove a time by clicking on it in the time list and press \'delete time\'.
+        \n-AvgX means \'average\' and it\'s the average of x times without the best
+        and the worst time of the concerned list of times.
+        \n-MoX means \'mean of\' and it\'s the average of x times counting the best and the
+        worst time.
+        \n\n-In chart, blue times are times without penalty.
+        \n-red times are times with a DNF penalty.
+        \n-green times are times with a +2 penalty.
+        \n\nIf still things that you don\'t understand, don\'t hesitate to send a message to the
+        developer in \'contact\', he is responsive and he can update the app to do it better!
+    </string>
+
+    <string name="timer_no_update">...</string>
+
+    <string name="fragment_timer_scramble_title">Scramble :</string>
+    <string name="fragment_stats_totalmean">Mo%1$d (without DNF) : %2$ss</string>
+    <string name="fragment_stats_nbtimes">Number of times : %1$d</string>
+    <string name="fragment_times_times">Times</string>
+    <string name="fragment_times_stats">Stats</string>
+    <string name="fragment_times_charts">Charts</string>
+
+    <string name="chart_line_title">Times curve</string>
+    <string name="chart_distribution_title">Times distribution</string>
+
+    <string name="dialog_event_title">Events</string>
+    <string name="dialog_add_event_title">Add event</string>
+    <string name="dialog_add_event_add">Add</string>
+    <string name="dialog_add_event_name_desc">Name :</string>
+    <string name="dialog_add_event_name_hint">Event name</string>
+    <string name="dialog_add_event_scramble_desc">Scramble type :</string>
+    <string name="dialog_edit_event_title">Event</string>
+    <string name="dialog_edit_event_name_desc">Change name :</string>
+    <string name="dialog_edit_event_name_hint">New name</string>
+    <string name="dialog_edit_event_scramble_desc">Change scramble type :</string>
+    <string name="dialog_edit_event_save">Save</string>
+    <string name="dialog_edit_event_delete">Delete</string>
+    <string name="event_official">Official</string>
+    <string name="event_unofficial">Unofficial</string>
+    <string name="event_add" translatable="false">Add event</string>
+    <string name="event_2x2" translatable="false">2x2</string>
+    <string name="event_3x3" translatable="false">3x3</string>
+    <string name="event_3x3oh" translatable="false">3x3 OH</string>
+    <string name="event_3x3ft" translatable="false">3x3 FT</string>
+    <string name="event_3x3bld" translatable="false">3x3 BLD</string>
+    <string name="event_4x4" translatable="false">4x4</string>
+    <string name="event_4x4bld" translatable="false">4x4 BLD</string>
+    <string name="event_5x5" translatable="false">5x5</string>
+    <string name="event_5x5bld" translatable="false">5x5 BLD</string>
+    <string name="event_6x6" translatable="false">6x6</string>
+    <string name="event_7x7" translatable="false">7x7</string>
+    <string name="event_square1" translatable="false">Square-1</string>
+    <string name="event_skewb" translatable="false">Skewb</string>
+    <string name="event_pyraminx" translatable="false">Pyraminx</string>
+    <string name="event_megaminx" translatable="false">Megaminx</string>
+    <string name="event_clock" translatable="false">Clock</string>
+    <string name="event_2x2x3" translatable="false">2x2x3</string>
+    <string name="event_3x3x2" translatable="false">3x3x2</string>
+    <string name="event_barrel3x3" translatable="false">Barrel 3x3</string>
+    <string name="event_mirror" translatable="false">Mirror cube</string>
+    <string name="event_mastermorphix" translatable="false">Mastermorphix</string>
+    <string name="event_eitantwist" translatable="false">Eitan twist</string>
+    <string name="scramble_none">No scramble</string>
+    <string name="scramble_unavailable">No scramble available for this event.</string>
+
+    <string name="timelist_empty_text">You don\'t have done yet times for this event.</string>
+    <string name="chart_empty_text">Make at least 2 times at this event to show charts.</string>
+    <string name="timelist_add_title">Add time manually</string>
+    <string name="timelist_add_time">Add time</string>
+    <string name="timelist_add_insert_desc">Insert time :</string>
+    <string name="timelist_add_min">Min</string>
+    <string name="timelist_add_sec">Sec</string>
+    <string name="timelist_add_mil">Mil</string>
+    <string name="timelist_add_add">Add time</string>
+    <string name="timelist_delete_multiple_times">Multiple deletion</string>
+    <string name="timelist_delete_dialog_title">Delete selection</string>
+    <string name="timelist_delete_dialog_desc_empty">
+        You haven\'t selected times to delete.
+    </string>
+    <plurals name="timelist_delete_dialog_desc">
+        <item quantity="one">Are you sure to delete this selected time of %2$s event?</item>
+        <item quantity="other">Are you sure to delete the %1$d selected times of %2$s event?</item>
+    </plurals>
+    <string name="fragment_timelist_selection_all">Select all</string>
+    <string name="timelist_detail_title">Time details</string>
+    <string name="timelist_detail_save">Save</string>
+    <string name="timelist_detail_delete">Delete time</string>
+    <string name="timelist_detail_event"><u>Event</u> :</string>
+    <string name="timelist_detail_single"><u>Time</u> :</string>
+    <string name="timelist_detail_mo3" translatable="false"><u>Mo3</u> :</string>
+    <string name="timelist_detail_avg5" translatable="false"><u>Avg5</u> :</string>
+    <string name="timelist_detail_avg12" translatable="false"><u>Avg12</u> :</string>
+    <string name="timelist_detail_mo50" translatable="false"><u>Mo50</u> :</string>
+    <string name="timelist_detail_mo100" translatable="false"><u>Mo100</u> :</string>
+    <string name="timelist_detail_scramble"><u>Scramble</u> :</string>
+    <string name="timelist_detail_date"><u>Date</u> :</string>
+    <string name="timelist_detail_penalty" translatable="false"><u>Penalty</u> :</string>
+    <string name="timelist_detail_penalty_no">No penalty</string>
+    <string name="timelist_detail_penalty_2" translatable="false">+2</string>
+    <string name="timelist_detail_penalty_dnf" translatable="false">DNF</string>
+    <string name="dialog_progress_deletion_title">Deletion</string>
+    <string name="dialog_progress_deletion_message">Removing times (%1$d/%2$d)...</string>
+
+    <string name="dialog_best_time_title">Best %1$s times</string>
+    <string name="dialog_scramble_empty_message">This time was added manually, the scramble is unavailable.</string>
+
+    <string name="note_start">Note : </string>
+    <string name="note_last_update1">The timer precision is boosted to milliseconds.</string>
+    <string name="note_last_update2">You can change the timer background color in settings.</string>
+    <string name="note_biggest_cube">The biggest cube ever constructed is a 22x22x22.</string>
+    <string name="note_wr_3x3">The official world record for solving a 3x3x3 cube is 4.78s by Mats Valk!</string>
+    <string name="note_world_championship">The 2017 world rubik\'s cube championship will take place in Paris.</string>
+    <string name="note_combinaisons_3x3">The rubik\'s cube has 43 252 003 274 489 856 000 different possible combinations.</string>
+    <string name="note_combinaisons_7x7">The 7x7x7 cube has more different possible combinations than the number of atomes in the universe.</string>
+    <string name="note_wr_mirror">The mirror block unofficial world record is 9.57s.</string>
+    <string name="note_god_3x3x3">All scrambles of the rubik\'s cube can be solve in 20 moves or less.</string>
+
+    <string name="new_record">New record!</string>
+    <string name="beat_record_no_previous">New %1$s %2$s : %3$ss!</string> <!-- event, recortType, time -->
+    <string name="beat_record">New %1$s %2$s : %3$ss!\n(previous : %4$ss).</string> <!-- event, recortType, time -->
+
+    <string name="view_average_array_in_course">Current</string>
+    <string name="view_average_array_best">Best</string>
+
+</resources>

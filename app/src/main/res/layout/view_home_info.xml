@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <letsapps.com.letscube.view.AverageArrayView
+        android:id="@+id/average_array"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <letsapps.com.letscube.view.pattern.PuzzlePatternView
+        android:id="@+id/cube_pattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <letsapps.com.letscube.view.chart.ChartLineView
+        android:id="@+id/chart_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <letsapps.com.letscube.view.chart.ChartHistogramView
+        android:id="@+id/chart_histogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="34dp"
+        android:text="@string/home_info_unavailable"/>
+
+</RelativeLayout>

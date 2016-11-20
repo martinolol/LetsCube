@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/times_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/separator"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/empty_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:text="@string/timelist_empty_text"/>
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/buttons_layout"
+        android:background="#000"/>
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/timelist_add_time"
+            android:background="@color/app_background"/>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="48dp"
+            android:layout_alignTop="@id/add_time"
+            android:background="#000"/>
+
+        <Button
+            android:id="@+id/delete_times"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_alignParentBottom="true"
+            android:text="@string/timelist_delete_multiple_times"
+            android:background="@color/app_background"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

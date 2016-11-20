@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Let\'s cube Timer</string>
+    <string name="beat_record">Nouveau %1$s %2$s : %3$ss!\n(précédent : %4$ss).</string>
+    <string name="beat_record_no_previous">Nouveau %1$s %2$s : %3$ss!</string>
+    <string name="cancel">Annuler</string>
+    <string name="close">Fermer</string>
+    <string name="dialog_add_event_add">Ajouter</string>
+    <string name="dialog_add_event_name_desc">Nom :</string>
+    <string name="dialog_add_event_name_hint">Nom de l\'event</string>
+    <string name="dialog_add_event_scramble_desc">Type de mélange :</string>
+    <string name="dialog_add_event_title">Nouvel event</string>
+    <string name="dialog_edit_event_delete">Supprimer</string>
+    <string name="dialog_edit_event_name_desc">Modifier le nom :</string>
+    <string name="dialog_edit_event_name_hint">Nouveau nom</string>
+    <string name="dialog_edit_event_save">Enregistrer</string>
+    <string name="dialog_edit_event_scramble_desc">Modifier le type de mélange :</string>
+    <string name="dialog_edit_event_title">Event</string>
+    <string name="dialog_event_title">Events</string>
+    <string name="event_official">Officiel</string>
+    <string name="event_unofficial">Non officiel</string>
+    <string name="fragment_stats_nbtimes">Nombre de temps total : %1$d</string>
+    <string name="fragment_stats_totalmean">Mo%1$d (sans DNF) : %2$ss</string>
+    <string name="new_record">Nouveau record!</string>
+    <string name="scramble_none">Pas de mélange</string>
+    <string name="scramble_unavailable">Le mélange n\'est pas disponible pour cet event.</string>
+    <string name="send">Envoyer</string>
+    <string name="settings_contact">Envoyer un message au developpeur</string>
+    <string name="settings_contact_dialog_desc">
+        Entrez ce qu vous voulez dire au développeur
+        (idée de mises à jour, de nouvelles options, un opinion sur l\'appli...),
+        le message sera pris en compte et lu dans la journée
+        (la réponse se fera par mail) :
+    </string>
+    <string name="settings_contact_dialog_hint">max. 250</string>
+    <string name="settings_contact_dialog_title">Contact</string>
+    <string name="settings_dialog_theme_title">Theme</string>
+    <string name="settings_help_app">Aide sur l\'application</string>
+    <string name="settings_help_app_dialog_content">Cette application est un chronomètre pour les cubers
+        pour enregister leur temps, calculer leur moyenne...
+        calculate there averages, records...
+        \n\nQuelques aides pour mieux comprendre :
+        \n-Vous pouvez changer d\'event en cliquant sur le nom de l\'event dans la barre du haut.
+        \n-Vous pouvez ajouter votre propre event en cliquant sur \'add event\' dans la partie non officielle.
+        \n-Vous pouvez modifier votre event personnel en cliquant longtemps dessus.
+        \n-OH signifie résoudre à 1 main.
+        \n-BLD signifie résoudre les yeux bandés.
+        \n-FT signifie résoudre avec les pieds.
+        \n\n-Vous pouvez mettre des pénalités à vos temps en cliquant dessus dans la liste.
+        \n-Pour supprimer un temps, ils faut cliquer dessus dans la liste des temps puis cliquer sur \'Supprimer\'
+        \n-AvgX signifie moyenne de X temps auquel est retiré le meilleur et le moins bon temps.
+        \n-MoX signifie moyenne de X temps.
+        \n\n-Dans le graphique, les lignes bleues représentent les temps sans pénalités.
+        \n-les lignes rouges représentent les temps qui sont DNF.
+        \n-les lignes vertes représentent les temps qui ont une pénalité de 2 secondes.
+        \n\nSi il reste des choses que vous n\'avez pas comprise, n\'hésitez pas à en voyer un message au
+        développeur dans la partie \'contact\', il pourra le prendre en compte pour mettre à jour et améliorer
+        l\'appli!</string>
+    <string name="settings_help_app_dialog_title">Aide sur l\'application</string>
+    <string name="settings_help_scramble">Comment mélanger le %1$s?</string><string name="settings_help_scramble_dialog_2x2_3x3">Pour mélanger les cubes
+        vous devez tout le temps avoir la face verte devant et la face blanche au dessus.
+        Voici la signification des notations :
+        \n\n<b>R, L, F, B, U, D</b> indiquent la face à tourner :
+        \n<b>R</b> : face de droite (Right).
+        \n<b>L</b> : face de gauche (Left).
+        \n<b>F </b> : face de devant (Front).
+        \n<b>B </b> : face de derrière (Back).
+        \n<b>U </b> : face du dessus (Up).
+        \n<b>D </b> : face de dessous (Down).
+        \n\n<b>2, \'</b> indiquent comment tourner la face concernée :
+        \n-quand la lettre est toute seule, il faut faire un quart de tour dans le sens des aiguilles d\'une montre.
+        \n-quand elle est suivie de <b>\'</b>, il faut faire un quart de tour dans le sens
+        contraire des aiguilles d\'une montre
+        \n-quand elle est suivie de <b>2</b>, il faut faire un demi tour.
+        \n\nPar exemple, <b>L\'</b> signifie : tourner la face de gauche dans le sens
+        contraire des aiguilles d\'une montre.</string>
+    <string name="settings_help_scramble_dialog_4x4_5x5">Pour mélanger les gros cubes comme le 4x4 et le 5x5,
+        c\'est comme le 2x2 et le 3x3 mais les lettres seules
+        signifie de tourner la couronne externe, et les lettres suivie d\'un <b>w</b> signifie de tourner
+        la couronne externe ET la couronne interne.
+        \n\nPar exemple, <b>Fw2</b> signife : tourner les 2 couronnes de devant d\'un demi tour.</string>
+    <string name="settings_help_scramble_dialog_coming_soon">Pour bientôt!</string>
+    <string name="settings_help_scramble_dialog_6x6_7x7">Pour mélanger les gros cube comme le 6x6 et le 7x7,
+        c\'est comme pour le 4x4 et le 5x5, mais les lettre suivies de <b>w</b>
+        et précédée de <b>3</b> signifient qu\'il faut tourner les 3 couronnes externes.
+        \n\nPar exemple, <b>3Uw\'</b> signifie : tourner les 3 couronnes supérieurs d\'un quart de tour
+        dans le sens contraire des aiguilles d\'une montre.</string><string name="settings_help_scramble_dialog_megaminx">Pour mélanger le mégaminx,
+        il faut toujours avoir la face vert foncée devant vous et la face blanche au dessus
+        \nPour la notation, il faut prendre les 3 pièces de gauche  (angle-arête-angle), celles à gauche de
+        la face blanche (elles contiennent générallement du violet).
+        \nVoici les notations utilisées :
+        \n\n<b>R++</b> : signifie de bloquer les 3 pièces et et de tourner tout le block de droite 2 fois dans
+        le sens des aiguilles d\'une montre (144°)
+        \n<b>R--</b> : pareil mais dans le sens contraire des aiguilles d\'une montre (-144°)
+        \n<b>D++</b> signifie de bloquer les 3 pièces et et de tourner tout le block de dessosu 2 fois dans
+        le sens des aiguilles d\'une montre (144°)
+        \n<b>D--</b> : pareil mais dans le sens contraire des aiguilles d\'une montre (-144°)
+        \n<b>U</b> : signifie qu\'il faut relâcher les 3 pièces, tourner la face du haut dans le sens des
+        aiguilles d\'une montre (72°) puis les reprendre.
+        \n<b>U\'</b> : pareil mais dans le sens contraire des aiguilles d\'une montre (-72°)
+
+        \n\nPar exemple <b>D--</b> signifie : tourner tout le block inférieur
+        dans le sens contraire des aiguilles d\'une montre 2 fois (-144°), en bloquant la face du dessus.</string><string name="settings_help_scramble_dialog_pyraminx">Pour mélanger le pyraminx,
+        il faut le tenir avec la face verte devant et la face jaune en dessous
+        \nVoici les notations utilisées :
+        \n\n<b>R, L, B, U</b> indiquent la pointe à tourner :
+        \n<b>R</b> : pointe de droite (Right)
+        \n<b>L</b> : pointe de gauche (Left)
+        \n<b>B</b> : pointe de derière (Back)
+        \n<b>U</b> : pointe de dessus (Up)
+        \n\nSi la lettre est seule, il faut tourner la pointe dans le sens des aiguilles d\'une montre,
+        si elles est suivie de <b>\'</b>, il faut tourner la pointe dans le sens
+        contraire des aiguilles d\'une montre.
+        \nSi la lettre est en majuscule, il faut tourner les 2 couronnes de la pointe,
+        \nsi elle est en minuscule, il faut juste tourner la petite pointe externe,
+
+        \n\nPar exemple <b>R</b> signifie : tourner les 2 couronnes de la pointe de droite dans le sens
+        des aiguilles d\'une montre.</string><string name="settings_help_scramble_dialog_skewb">Pour mélanger le skewb,
+        il faut avoir l\'angle blanc-vert-rouge face à vous, de sorte à avoir la face blanche au dessus,
+        la face verte à gauche et la face rouge à droite.
+        \nVoici la signification des notations :
+        \n\n<b>R, L, B, U</b> indiquent l\'angle à tourner,
+        \n<b>R</b> : angle inférieur droit (bleu-rouge-jaune).
+        \n<b>L</b> : angle inférieur gauche (orange-vert-jaune).
+        \n<b>B</b> : angle arrière (bleu-orange-jaune).
+        \n<b>U</b> : angle supérieur (blanc-orange-bleu).
+        \n\nSi la lettre est seule, il faut tourner l\'angle dans le sens des aiguilles d\'une montre,
+        si elle est suivie par <b>\'</b>, il faut tourner dans le sens contraire des aiguilles d\'une montre.
+        \n\nPar exemple <b>L\'</b>signifie : tourner l\'angle inférieur gauche dans le sens contraire
+        des aiguilles d\'une montre.</string><string name="settings_help_scramble_dialog_square1">Pour mélanger le square-1,
+        il faut avoir les 2 bars à l\'horizontal, et la petite partie de la barre à gauche de la face de devant.
+        \n\Ensuite, un <b>/</b> signifie de faire un demi-tour du block de droite,
+        Entre les 2 parenthèses, il y a 2 nombres :
+        \n- Le premier est le nombre de rotation de 30° de la face du haut
+        dans le sens des aiguilles d\'une montre.
+        \n- Le second est le nombre de rotation de 30° de la face du bas
+        dans le sens des aiguilles d\'une montre.
+        \nSi le nombre est négatif, il faut tourner dans le sens contraire des aiguilles d\'une montre.
+        \n\nPar exemple, <b>(3,-1) /</b> signifie : tourner de 90° la face du haut (90° = quart de tour)
+        dans le sens des aiguilles d\'une montre et de 30° la face du bas dans le sens contraire des aiguilles
+        d\'une montre. Ensuite, tourner le block de drotie d\'un demi-tour.</string>
+    <string name="settings_help_scramble_dialog_title">Aide pour le mélange</string>
+    <string name="settings_inspection">Inspection</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_blue">Bleu</string>
+    <string name="settings_theme_green">Vert</string>
+    <string name="settings_theme_orange">Orange</string>
+    <string name="settings_timer_update">Chronomètre</string>
+    <string name="settings_timer_update_desc_no">Ne pas voir le temps</string>
+    <string name="settings_timer_update_hundredth">Toutes les 0.01s</string>
+    <string name="settings_timer_update_second">Toutes les 1s</string>
+    <string name="settings_timer_update_tenth">Toutes les 0.1s</string>
+    <string name="settings_title_contact">Contact :</string>
+    <string name="settings_title_design">Design :</string>
+    <string name="settings_title_help">Aide :</string>
+    <string name="settings_title_timer">Chronomètre :</string>
+    <string name="timelist_add_add">Ajouter un temps</string>
+    <string name="timelist_add_mil">Mil</string>
+    <string name="timelist_add_insert_desc">Insérer un temps :</string>
+    <string name="timelist_add_min">Min</string>
+    <string name="timelist_add_sec">Sec</string>
+    <string name="timelist_add_time">Ajouter un temps</string>
+    <string name="timelist_add_title">Ajouter un temps</string>
+    <string name="timelist_detail_date"><u>Date :</u></string>
+    <string name="timelist_detail_delete">Supprimer</string>
+    <string name="timelist_detail_event"><u>Event</u> :</string>
+    <string name="timelist_detail_penalty_no">Aucune pénalité</string>
+    <string name="timelist_detail_save">Enregistrer</string>
+    <string name="timelist_detail_scramble"><u>Mélange</u> :</string>
+    <string name="timelist_detail_single"><u>Temps</u> :</string>
+    <string name="timelist_detail_title">Détails</string>
+    <string name="timer_no_update">...</string>
+    <string name="view_average_array_best">Meilleur</string>
+    <string name="view_average_array_in_course">En cours</string>
+    <string name="fragment_times_stats">Stats</string>
+    <string name="fragment_times_times">Temps</string>
+    <string name="settings_timer_update_dialog_title">Chronomètre</string>
+    <string name="timelist_delete_multiple_times">Suppression multiple</string>
+    <string name="delete">Supprimer</string>
+    <string name="timelist_delete_dialog_title">Suppression</string>
+    <string name="timelist_delete_dialog_desc_empty">Vous n\'avez selectionné aucun temps à supprimer.</string>
+    <plurals name="timelist_delete_dialog_desc">
+        <item quantity="one">Confirmer la suppression du temps selectionné
+        pour l\'event %2$s?</item>
+        <item quantity="other">Confirmer la suppression des %1$d temps selectionnés
+            de l\'event %2$s?</item>
+    </plurals>
+    <string name="fragment_timelist_selection_all">Tout sélectionner</string>
+    <string name="timelist_empty_text">Vous n\'avez pas encore fait de temps pour cet event.</string>
+    <string name="login_button">Accéder au timer</string>
+    <string name="login_email_desc">Email :</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_info_name_empty">Pseudo manquant.</string>
+    <string name="login_info_email_invalid">Adresse email invalide.</string>
+    <string name="login_name_desc">Nom :</string>
+    <string name="login_name_hint">Pseudo</string>
+    <string name="settings_support">Soutenir le développeur gratuitement</string>
+    <string name="settings_support_thanks">Merci pour votre support!</string>
+    <string name="settings_rate">Noter sur google play</string>
+    <string name="settings_rate_impossible">Impossble d\'ouvrir Google Play, installez-le!</string>
+    <string name="settings_support_not_loaded">La pub n\'est pas chargée, allumez votre wifi ou réessayez dans quelques secondes!</string>
+    <string name="settings_help_scramble_dialog_no_scramble">Cet évent n\'a pas de mélange.</string>
+    <string name="home_info_unavailable">Bientôt disponible!</string>
+    <string name="settings_timer_home_content">Contenu timer</string>
+    <string name="settings_timer_home_content_dialog_title">Contenu timer</string>
+    <string name="settings_timer_home_content_averages">Moyennes</string>
+    <string name="settings_timer_home_content_nothing">Aucun</string>
+    <string name="settings_timer_home_content_pattern">Patron</string>
+    <string name="settings_theme_yellow">Jaune</string>
+    <string name="chart_distribution_title">Répartition des temps</string>
+    <string name="fragment_times_charts">Graphiques</string>
+    <string name="chart_line_title">Courbe des temps</string>
+    <string name="settings_timer_home_content_chart_histogram">Graph. Répartition</string>
+    <string name="settings_timer_record_alert">Alerter des records</string>
+    <string name="settings_timer_home_content_chart_line">Graph. temps</string>
+    <string name="settings_background">Fond du chrono</string>
+    <string name="settings_background_white">Blanc</string>
+    <string name="settings_background_black">Noir</string>
+    <string name="settings_dialog_background_title">Fond du chrono</string>
+    <string name="default_name_first_session">Session 1</string>
+    <string name="time_weird_dialog_title">Temps étrange</string>
+    <string name="time_weird_dialog_button_delete">Supprimer</string>
+    <string name="time_weird_dialog_message_high">Ce temps (%1$ss) semble trop mauvais, voulez-vous le garder?</string>
+    <string name="time_weird_dialog_button_keep">Garder</string>
+    <string name="time_weird_dialog_message_low">Ce temps (%1$ss) semble trop bon, voulez-vous le garder?</string>
+    <string name="activity_loading_loading">Chargement</string>
+    <string name="settings_timer_update_millisecond">Toutes les 0.001s</string>
+    <string name="note_start">Note : </string>
+    <string name="note_last_update1">La précision du chronomètre a été augmentée aux millisecondes</string>
+    <string name="note_last_update2">Vous pouvez changer la couleur de fond du chronomètre dans les paramètres.</string>
+    <string name="note_biggest_cube">Le plus gros cube qui a été construit est un 22x22x22.</string>
+    <string name="note_combinaisons_3x3">Le rubik\'s cube a 43 252 003 274 489 856 000 différentes combinaisons possibles.</string>
+    <string name="note_combinaisons_7x7">Le cube 7x7x7 possède plus de différentes combinaisons possibles qu\'il y a d\'atomes dans l\'univers.</string>
+    <string name="note_god_3x3x3">Tous les mélanges du rubik\'s cube peuvent être résolus en 20 coups ou moins.</string>
+    <string name="note_world_championship">L\'édition de 2017 des championnats du monde de rubik\'s cube aura lieu à Paris.</string>
+    <string name="note_wr_3x3">Le record du monde de résolution du rubik\'s cube est 4.78s, il est détenu par Mats Valk!</string>
+    <string name="note_wr_mirror">Le record du monde non-officiel pour résoudre un mirror cube est 9.57s.</string>
+    <string name="dialog_best_time_title">Meilleur %1$s</string>
+    <string name="settings_dialog_theme_message">Choisissez votre couleur préférée :</string>
+    <string name="validate">Valider</string>
+    <string name="settings_theme_cyan">Cyan</string>
+    <string name="settings_theme_orange_light">Orange clair</string>
+    <string name="settings_theme_green_light">Vert clair</string>
+    <string name="settings_theme_red">Rouge</string>
+    <string name="dialog_progress_deletion_message">Suppression des temps (%1$d/%2$d).</string>
+    <string name="dialog_progress_deletion_title">Suppression</string>
+    <string name="onboarding_step_title">Étape %1$d/%2$d</string>
+    <string name="skip">Passer</string>
+    <string name="next">Suivant</string>
+    <string name="onboarding_step2_record_single">single</string>
+    <string name="onboarding_step1_home_desc">Mesurez vos performances avec exactitude.</string>
+    <string name="onboarding_step1_home_title">Précision à la millisecondes</string>
+    <string name="onboarding_step2_record_desc">Soyez alerter automatiquement quand vous réalisez votre meilleure performance.</string>
+    <string name="onboarding_step2_record_title">Détection des records</string>
+    <string name="onboarding_step3_analytics_title">Suivi de la progression</string>
+    <string name="onboarding_step3_analytics_desc">Analysez l\'évolution de vos performances sur le long terme.</string>
+    <string name="onboarding_step4_theme_title">Selection du thème</string>
+    <string name="onboarding_step4_theme_desc">Personnalisez votre application avec votre couleur préférée.</string>
+    <string name="ok">Ok</string>
+    <string name="onboarding_step5_access_title1">Choisissez un theme</string>
+    <string name="onboarding_step5_access_title2">Comment avez-vous découvert l\'application?</string>
+    <string name="dialog_scramble_empty_message">Ce temps a été ajouté manuellement, le mélange est indisponible.</string>
+    <string name="chart_empty_text">Fait au moins 2 temps à cet event pour accéder aux graphiques.</string>
+    <string name="timer_default_text">Appuies pour démarrer</string>
+    <string name="timer_inspecting">Inspection</string>
+    <string name="timer_solving">Résolution</string>
+    <string name="fragment_timer_scramble_title">Mélange :</string>
+    <string name="onboarding_step5_access_desc20">Youtube</string>
+    <string name="onboarding_step5_access_desc21">Forum</string>
+    <string name="onboarding_step5_access_desc22">Connaissance</string>
+    <string name="onboarding_step5_access_desc23">Play store</string>
+    <string name="onboarding_step5_access_desc24">Autre :</string>
+</resources>

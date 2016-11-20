@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:letscube="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <Button
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:layout_marginBottom="4dp"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:textColor="#000"
+        android:text="-"
+        android:maxLength="15"
+        android:background="@drawable/view_border_white"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal">
+
+        <letsapps.com.letscube.view.actionBar.ActionBarButton
+            android:id="@+id/timer"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="8dp"
+            letscube:src="@drawable/ic_timer"/>
+
+        <letsapps.com.letscube.view.actionBar.ActionBarButton
+            android:id="@+id/stats"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="8dp"
+            letscube:src="@drawable/ic_stats"/>
+
+        <letsapps.com.letscube.view.actionBar.ActionBarButton
+            android:id="@+id/settings"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="8dp"
+            letscube:src="@drawable/ic_settings"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

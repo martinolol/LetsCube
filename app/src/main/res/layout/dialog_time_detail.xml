@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:letscube="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <letsapps.com.letscube.view.dialog.ViewDialogTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        letscube:dialog_title="@string/timelist_detail_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp">
+
+            <LinearLayout
+                android:id="@+id/bloc_desc_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timelist_detail_event"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/timelist_detail_separation"
+                    android:text="@string/timelist_detail_single"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timelist_detail_mo3"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timelist_detail_avg5"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timelist_detail_avg12"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timelist_detail_mo50"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timelist_detail_mo100"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/timelist_detail_separation"
+
+                    android:text="@string/timelist_detail_scramble"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bloc_value_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/bloc_desc_up"
+                android:layout_marginLeft="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/event"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="3x3"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/single"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/timelist_detail_separation"
+                    android:text="14.42"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/mo3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15.13"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/avg5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15.17"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/avg12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="16.03"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/mo50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15.89"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/mo100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="15.93"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/scramble"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/timelist_detail_separation"
+                    android:text="R2 B2 U F' L U' R2 U' F2 D B L B' R' F D2 B L' B' L U' B U2 L2 D2 F R2"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bloc_desc_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/timelist_detail_separation"
+                android:layout_below="@id/bloc_value_up"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/timelist_detail_date"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/timelist_detail_separation"
+                    android:text="@string/timelist_detail_penalty"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bloc_value_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/bloc_desc_down"
+                android:layout_toRightOf="@id/bloc_desc_up"
+                android:layout_marginLeft="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="31/01/2016"
+                    style="@style/TimeDetailTextViewStyle"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/timelist_detail_separation">
+
+                    <RadioButton
+                        android:id="@+id/penalty_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/timelist_detail_penalty_no"
+                        style="@style/TimeDetailTextViewStyle"/>
+
+                    <RadioButton
+                        android:id="@+id/penalty_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/timelist_detail_penalty_2"
+                        style="@style/TimeDetailTextViewStyle"/>
+
+                    <RadioButton
+                        android:id="@+id/penalty_dnf"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/timelist_detail_penalty_dnf"
+                        style="@style/TimeDetailTextViewStyle"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

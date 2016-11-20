@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/datas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/layout_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AverageArrayTextViewStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Single"
+                style="@style/AverageArrayTextViewStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mo3"
+                style="@style/AverageArrayTextViewStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avg5"
+                style="@style/AverageArrayTextViewStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avg12"
+                style="@style/AverageArrayTextViewStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mo50"
+                style="@style/AverageArrayTextViewStyle"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mo100"
+                style="@style/AverageArrayTextViewStyle"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_in_course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_average_array_in_course"
+                    style="@style/AverageArrayTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/single_in_course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--.--"
+                    style="@style/AverageArrayTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/mo3_in_course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--.--"
+                    style="@style/AverageArrayTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/avg5_in_course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--.--"
+                    style="@style/AverageArrayTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/avg12_in_course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--.--"
+                    style="@style/AverageArrayTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/mo50_in_course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--.--"
+                    style="@style/AverageArrayTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/mo100_in_course"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--.--"
+                    style="@style/AverageArrayTextViewStyle"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_best"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_average_array_best"
+                    style="@style/AverageArrayTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/single_best"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--.--"
+                    style="@style/AverageArrayTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/mo3_best"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--.--"
+                    style="@style/AverageArrayTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/avg5_best"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--.--"
+                    style="@style/AverageArrayTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/avg12_best"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--.--"
+                    style="@style/AverageArrayTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/mo50_best"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--.--"
+                    style="@style/AverageArrayTextViewStyle"/>
+
+                <TextView
+                    android:id="@+id/mo100_best"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="--.--"
+                    style="@style/AverageArrayTextViewStyle"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

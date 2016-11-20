@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center"
+        android:textSize="48dp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:text="@string/app_name"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_lets_cube_1"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3">
+
+        <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="32dp"
+            android:typeface="monospace"
+            android:text="@string/activity_loading_loading"/>
+
+        <letsapps.com.letscube.view.LoadingTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/loading_text"
+            android:layout_toRightOf="@id/loading_text"
+            android:textSize="32dp"
+            android:typeface="monospace"
+            android:text="..."/>
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/loading_text"
+            android:padding="8dp"
+            android:textSize="20dp"
+            android:text=
+                "note : La précision du chronomètre est augmentée aux millisecondes"/>
+
+    </RelativeLayout>
+
+    <!--<ProgressBar
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_margin="8dp"
+        android:layout_above="@+id/loading_text"
+        android:layout_centerHorizontal="true"/>-->
+
+</LinearLayout>

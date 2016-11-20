@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="onboarding_message_content_margin">14dp</dimen>
+
+    <dimen name="press_to_start_size">28dp</dimen>
+
+    <dimen name="scramble_text_size_big">16dp</dimen>
+    <dimen name="scramble_text_size_medium">14dp</dimen>
+    <dimen name="scramble_text_size_small">12dp</dimen>
+    <dimen name="scramble_text_size_xsmall">10dp</dimen>
+</resources>

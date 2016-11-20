@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:letscube="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <letsapps.com.letscube.view.dialog.ViewDialogTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        letscube:dialog_title="@string/timelist_add_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textSize="20dp"
+            android:text="@string/timelist_add_insert_desc"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/time_min"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:maxLength="2"
+                android:hint="@string/timelist_add_min"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=":"/>
+
+            <EditText
+                android:id="@+id/time_sec"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:maxLength="2"
+                android:hint="@string/timelist_add_sec"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."/>
+
+            <EditText
+                android:id="@+id/time_mil"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:inputType="number"
+                android:maxLength="3"
+                android:hint="@string/timelist_add_mil"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

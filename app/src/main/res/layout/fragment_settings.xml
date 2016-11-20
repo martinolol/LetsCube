@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="8dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_title_timer"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAA"/>
+
+            <RelativeLayout
+                android:id="@+id/inspection"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:padding="8dp"
+                android:background="@drawable/settings_item_background">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"
+                    android:text="@string/settings_inspection"/>
+
+                <CheckBox
+                    android:id="@+id/inspection_CB"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/timer_update"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:padding="8dp"
+                android:background="@drawable/settings_item_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"
+                    android:text="@string/settings_timer_update"/>
+
+                <TextView
+                    android:id="@+id/timer_update_current"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:text="0.01s"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/timer_home_content"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:padding="8dp"
+                android:background="@drawable/settings_item_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"
+                    android:text="@string/settings_timer_home_content"/>
+
+                <TextView
+                    android:id="@+id/timer_home_content_current"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:text="Averages"/>
+
+            </RelativeLayout>
+
+            <!--
+
+            <RelativeLayout
+                android:id="@+id/timer_record_alert"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:padding="8dp"
+                android:background="@drawable/settings_item_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"
+                    android:text="@string/settings_timer_record_alert"/>
+
+                <TextView
+                    android:id="@+id/timer_record_alert_current"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:text="All"/>
+
+            </RelativeLayout>
+
+            -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/settings_title_design"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAA"/>
+
+            <RelativeLayout
+                android:id="@+id/theme"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:padding="8dp"
+                android:background="@drawable/settings_item_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"
+                    android:text="@string/settings_theme"/>
+
+                <TextView
+                    android:id="@+id/theme_current"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:text="orange"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:visibility="gone"
+                android:id="@+id/background"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:padding="8dp"
+                android:background="@drawable/settings_item_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"
+                    android:text="@string/settings_background"/>
+
+                <TextView
+                    android:id="@+id/background_current"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:textStyle="italic"
+                    android:textSize="20dp"
+                    android:text="white"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/settings_title_help"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAA"/>
+
+            <RelativeLayout
+                android:id="@+id/help_scramble"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="@drawable/settings_item_background">
+
+                <TextView
+                    android:id="@+id/help_scramble_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"
+                    android:text="@string/settings_help_scramble"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/help_app"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:padding="8dp"
+                android:background="@drawable/settings_item_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"
+                    android:text="@string/settings_help_app"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/settings_title_contact"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#AAA"/>
+
+            <RelativeLayout
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="@drawable/settings_item_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"
+                    android:text="@string/settings_contact"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/support"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="@drawable/settings_item_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"
+                    android:text="@string/settings_support"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="@drawable/settings_item_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="20dp"
+                    android:text="@string/settings_rate"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:letscube="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <letsapps.com.letscube.view.dialog.ViewDialogTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        letscube:dialog_title="@string/new_record"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/record_beat_content"
+            android:background="#FFF"/>
+
+        <RelativeLayout
+            android:id="@+id/record_beat_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:layout_centerInParent="true">
+
+                <TextView
+                    android:id="@+id/record_beat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="4dp"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text="@string/beat_record"
+                    android:background="@drawable/view_border_transparent"/>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_bar_selected_menu_bg">
+    <item>
+        <nine-patch android:src="@drawable/cutted_cube_black" />
+    </item>
+    <item
+        android:drawable="@color/app_background" />
+</layer-list>
